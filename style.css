@@ -1,0 +1,16 @@
+.name {
+    background-color: black;
+    color: white;
+    font-family: 'Italiana', serif;
+    font-size: 50px;
+} 
+
+.nav{
+    background-color: black;
+} 
+
+body {
+    background-image: url("assets/brick.jpg");
+    background-color: #cccccc;
+   }
+
