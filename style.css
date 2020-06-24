@@ -7,6 +7,7 @@
 
 .nav, .header{
     background-color: black;
+    width: 100%;
 } 
 
 body {
@@ -16,6 +17,8 @@ body {
 
 .sky {
     background-color: #74a4d8;
+    margin-top: 5px;
+    
 }
 
 
@@ -36,4 +39,7 @@ body {
       width: 230px;
   }
 
+label{
+    text-align: center;
+}
 
