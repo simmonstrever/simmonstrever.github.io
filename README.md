@@ -1,1 +1,7 @@
 # simmonstrever.github.io
+
+A responsive Website design to house my Bio, contact info, and portfolio.
+
+Working on this assignment with bootstrap to style the website to be responsive and professional several things stood out to me, the most being bootstrap is our friend. With that being said this readMe will cover styling rendered to the sites as well as issues encountered during the process. 
+
+The header was tricky as placing my name on the same div with the nav bar kept causing issues, we corrected this by placing it in a fluid container and rendering the responsiveness to essentially collapse on one another. The contact me was particularly tricky as I couldnt figure out how to make it functional, will come back and make it function to just shoot an email from the email given in the input automatically to myself. The footer was tricky as well as I couldnt figure out how to make it smaller and stick to the bottom of the page. I also couldnt figure out how to make the containers somewhat transparent and allow the user to see the background image while still allowing the text to be easily read. All in all I feel confident that the issues I came across made me a better developer for creating aestically pleasing websites. 

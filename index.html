@@ -1,68 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>t.Simmons Portfolio</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet"  href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <div class="header">
-        <h1 class="name text-center pt-3 "> Trever Simmons </h1>
-        <ul class="nav nav-pills active justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link btn btn-outline-light active" href="index.html"> About </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link btn btn-outline-light" href="contact.html"> Contact </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link btn btn-outline-light" href="portfolio.html"> Portfolio </a>
-            </li>
-        </ul>
-    </div>
+<link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
 
-    <div class="container pt-3">
-        <div class="row sky pb-5">
-            <div class="col-md-12">
-                <h2 class=> About Me: </h2>
-                <hr>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="assets/prof.jpg" alt="my pic" class="img-thumbnail">
-                    </div>
-                    <div class="col-md-6">
-                        <p class="pt-4"> 
-                            Currently, I am a student at Denver University enrolled in their Coding BootCamp. Prior to attending Denver University, I attended Western State University in Gunnison where I earned a B.S. in Mathematics emphasizing in applied Statistics. Attending Western State University provided me the opportunity to explore my creative, logical, and analytical personality through various academic exercises and projects as well as enjoy the mountain lifestyle such as snowboarding, hiking, and biking. While my endeavors in software development have recently just begun, I already find it equally gratifying as I do challenging and cannot wait to contribute to a creative and goal oriented company. 
-                        </p>
-                    </div>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="nav-brand text-center"> <h2 class="text-center text-white" id="special"> Trever Simmons </h2></a>
+            <!-- <button class="navbar" type="button"  data-target="navbarResponsive">
+                <span class="navbar"></span>
+                </button> -->
+                <div class="nav-pills justify-content-center" id="navbarResponsive">
+                    <!-- pushes nav to the right using ml auto -->
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark btn btn-outline-light active" href="index.html">About Me</a>
+                        </li>
+                        <li class="list item">
+                            <a class="nav-link text-light btn btn-outline-light" href="contact.html">Contact</a>
+                         </li>
+                         <li class="list item">
+                            <a class="nav-link text-light btn btn-outline-light" href="portfolio.html">Portfolio</a>
+                         </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+     <!-- bio jumbotron -->
+     <div class="container test padding bg-dark" id="jtron">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="text-white" id="jtron"> About Me </h1>
+                <hr class="bg-light">
+            </div>
+                <div class= "col-xs-4 col-sm-4 col-md-3">
+                    <img src="assets/prof.jpg" alt="my pic" class="img-thumbnail mb-3">
+                </div>
+                <div class="col-xs-8 col-sm-8 col-md-9">
+                   <strong> <p class="text-left text-white">   Currently, I am a student at Denver University enrolled in their Coding BootCamp. Prior to attending Denver University, I attended Western State University in Gunnison where I earned a B.S. in Mathematics emphasizing in applied Statistics. Attending Western State University provided me the opportunity to explore my creative, logical, and analytical personality through various academic exercises and projects as well as enjoy the mountain lifestyle such as snowboarding, hiking, and biking. While my endeavors in software development have recently just begun, I already find it equally gratifying as I do challenging and cannot wait to contribute to a creative and goal oriented company</p></strong>
                 </div>
             </div>
         </div>
+    </div>
 
 
+<footer>
+<div class="container-fluid padding mt-5 bg-dark">
+    <div class="row mb-0 text-center">
+        <div class="col-md-12">
+            <h2 id="signature" class="pt-2 text-white pa">Trever Simmons</h2>
+            <p class="text-white pa">580-603-0821</p>
+            <p class="text-white pa"> simmonst208@gmail.com</p>
+            <p class="text-white pa">Lakewood, CO. 80232</p>
+        </div>
     </div>
-    </div>
+</div>
+
+</footer>
 </body>
+
 
 </html>

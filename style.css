@@ -1,45 +1,25 @@
-.name {
-    background-color: black;
-    color: #74a4d8;
-    font-family: 'Italiana', serif;
-    font-size: 50px;
-} 
-
-.nav, .header{
-    background-color: black;
-    width: 100%;
-} 
+/* used to sign the footer in the bottom */
+#signature{
+    font-family: 'Mrs Saint Delafield', cursive;
+}
 
 body {
     background-image: url("assets/brick.jpg");
     background-color: #cccccc;
    }
 
-.sky {
-    background-color: #74a4d8;
-    margin-top: 5px;
-    
-}
+   /* used to help shape the footer */
+   .pa{
+       margin-bottom: 3px;
+   }
 
-
-.size {
-    height: 230px;
-    width: 230px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border:5px solid #800000;
-  }
-  
-   .caption {
-      font-size: 20px;
-      color: white; 
-      text-align: center;
-      background-color: #800000;
-      width: 230px;
-  }
-
-label{
-    text-align: center;
-}
+/* places a top margin of 30px on the jumbotron container  */
+   #jtron {
+       margin-top: 30px;
+   }
+/* gives a google font to my name in the header */
+   #special{
+    font-family: 'Italiana', serif;
+    color: white;
+   }
 
