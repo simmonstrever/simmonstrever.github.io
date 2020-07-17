@@ -1,98 +1,224 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>T.Simmons Contact</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
-
+  <title>Hello, world!</title>
 </head>
 
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-        <div class="container">
-            <a class="nav-brand text-center">
-                <h2 id="special" class="text-center text-white"> Trever Simmons </h2>
-            </a>
-            <!-- <button class="navbar" type="button"  data-target="navbarResponsive">
-                    <span class="navbar"></span>
-                    </button> -->
-            <div class="nav-pills justify-content-center" id="navbarResponsive">
-                <!-- pushes nav to the right using ml auto -->
-                <ul class="nav nav-pills">
-                    <li class="nav-item">
-                        <a class="nav-link text-white btn btn-outline-light" href="index.html">About Me</a>
-                    </li>
-                    <li class="list item">
-                        <a class="nav-link text-dark btn btn-outline-light active" href="contact.html">Contact</a>
-                    </li>
-                    <li class="list item">
-                        <a class="nav-link text-white btn btn-outline-light " href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="list item">
-                        <a class="nav-link text-light btn btn-outline-light" href="https://www.linkedin.com/in/simmonstrever/">LinkedIn</a>
-                     </li>
-                     <li class="list item">
-                        <a class="nav-link text-light btn btn-outline-light" href="https://github.com/simmonstrever">GitHub</a>
-                     </li>
-                     <li class="list item">
-                        <a href="assets/Tsimmons_Resume.pdf" class=" nav-link btn text-light btn-outline-light" download><i class="fa fa-download"></i>Download Resume</a>
-                     </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <!-- <h4 class="text-white">About</h4> -->
+            <img src="assets/prof.jpg" id="myImage" class=" align-self-center mr-3" alt="...">
+            <p class="text-muted">Meticulous and creative full-stack developer seeking to leverage mathematical degree and development background to contribute to innovative, results driven company. Currently enrolled in Denver University development boot camp, refining abilities in CSS, JavaScript, APIS, and node.js. Have demonstrated aptitude in designing, testing, and implementing code utilizing git and GitHub at both an independent and group level. Most recently demonstrated these abilities, creating a weather application for travelers looking to stay current with the weather as well as view forecasted data as well. Proven acumen in full-stack development and conducting formal presentations and reports to all levels of management. </p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white"> <a target="_blank" href="assets/Tsimmons_Resume.pdf" class="text-white"> Resume </a>
+            </h4>
+            <h4 class="text-white"> <a href="portfolio.html" class="text-white"> Portfolio </a></h4>
+            <h4 class="text-white"><a href="contact.html" class="text-white"> Contact </a></h4>
 
-    <div class="container bg-dark mt-5">
-        <div class="row sky justify-content-center">
-            <div class="col-md-12">
-                <form>
-                    <div class="form-group text-center pt-3">
-                        <label for="exampleFormControlInput1 " id="special">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
-                    </div>
-                    <div class="form-group text-center">
-                        <label for="exampleFormControlTextarea1 text-white" id="special">Name</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-                    </div>
-                    <div class="form-group text-center">
-                        <label for="exampleFormControlTextarea1 text-white" id="special">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                    </div>
-                </form>
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Connect
+                </button>
+                
+                <div class="dropdown-menu text-center" aria-labelledby="btnGroupDrop1">
+                  <a target="_blank" href="https://github.com/simmonstrever" class="btn btn-block btn-social btn-lg-github">
+                    GitHub<span class="fa fa-github text-black"></span> 
+                   </a>
+
+
+                <a target="_blank" href="https://www.linkedin.com/in/simmonstrever/" class="btn btn-block btn-social btn-lg-linkedin">
+                 LinkedIn<span class="fa fa-linkedin text-black"></span> 
+                </a>
+                </div>
+              </div>
             </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <h3 id="special"> Trever Simmons </h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+  <div class="site-wrapper" >
+
+    <div class="site-wrapper-inner">
+
+      <div class="container sky justify-content-center">
+        <div class="col-md-6">
+            <form>
+                <div class="form-group text-center pt-3">
+                    <label for="exampleFormControlInput1 " id="special">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="form-group text-center">
+                    <label for="exampleFormControlTextarea1 text-white" id="special">Name</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                </div>
+                <div class="form-group text-center">
+                    <label for="exampleFormControlTextarea1 text-white" id="special">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit">Submit Email </button>
+            </form>
+        </div>
+    </div>
+      <!-- <div class="container">
+        <div class="inner cover">         
+          <h1 class="cover-heading"> Contact Me: </h1>
+          <form class="needs-validation" novalidate>
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                <label for="validationTooltip01">First name</label>
+                <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Mark" required>
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationTooltip02">Last name</label>
+                <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Otto" required>
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationTooltipUsername">Username</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                  </div>
+                  <input type="text" class="form-control" id="validationTooltipUsername" placeholder="email" aria-describedby="validationTooltipUsernameAppend" required>
+                  <div class="invalid-tooltip">
+                    Please choose a unique and valid username.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationTooltip03">City</label>
+                <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid city.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationTooltip04">State</label>
+                <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid state.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationTooltip05">Zip</label>
+                <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid zip.
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </form> -->
         </div>
 
+      </div>
 
     </div>
-    <footer>
-        <div class="container-fluid padding mt-5 bg-dark">
-            <div class="row mb-0 text-center">
-                <div class="col-md-12">
-                    <h2 id="signature" class="pt-2 text-white pa">Trever Simmons</h2>
-                    <p class="text-white pa">580-603-0821</p>
-                    <p class="text-white pa"> simmonst208@gmail.com</p>
-                    <p class="text-white pa">Lakewood, CO. 80232</p>
-                </div>
+    <footer class="footer mt-0 pt-0">
+      <div class="container-fluid padding mt-0 bg-dark">
+        <div class="row mb-0 text-center">
+          <div class="col-md-12 text-center">
+            <div class="btn-group pt-0 mt-0" role="group" aria-label="Basic example">
+              <button type="button" class="btn"> <a target="_blank" href="https://github.com/simmonstrever"
+                  class="btn btn-social-icon btn-github">
+                  <span class="fa fa-github text-white"></span>
+                </a></button>
+              <button type="button" class="btn">
+                <a target="_blank" href="https://www.linkedin.com/in/simmonstrever/"
+                  class="btn btn-social-icon btn-lg-linkedin">
+                  <span class="fa fa-linkedin text-white"></span>
+                </a>
+              </button>
+              <button type="button" class="btn">
+                <a target="_blank" href="https://www.linkedin.com/in/simmonstrever/"
+                  class="btn btn-social btn-block btn-google text-white"><span class="fa fa-google"></span>
+                </a>
+              </button>
             </div>
+          </div>
         </div>
-
+      </div>
     </footer>
+
+  </div>
+
+  <!-- <section class="bgimage">
+    <div class="container">
+      <img src="brick.jpg" class="rounded mx-auto d-block" id="myImage" alt="..."> 
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="media align-items-center">
+                <div class="media-body content-center">
+                  <img src="brick.jpg" class="img-thumbnail" id="image" alt="...">
+                </div>
+              </div>
+              <h5> Trever Simmons </h5>
+              <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+              <p><a href="#" class="btn btn-primary btn-large">Learn more »</a></p>
+            </div> -->
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
+
+</html>

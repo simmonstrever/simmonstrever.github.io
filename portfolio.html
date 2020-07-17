@@ -1,108 +1,173 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>T.Simmons Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet"  href="style.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
-
+  <title>Hello, world!</title>
 </head>
 
 <body>
-    
-        <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-            <div class="container">
-                <a class="nav-brand text-center"> <h2 id ="special" class="text-center text-white"> Trever Simmons </h2></a>
-                <!-- <button class="navbar" type="button"  data-target="navbarResponsive">
-                    <span class="navbar"></span>
-                    </button> -->
-                    <div class="nav-pills justify-content-center" id="navbarResponsive">
-                        <!-- pushes nav to the right using ml auto -->
-                        <ul class="nav nav-pills">
-                            <li class="nav-item">
-                                <a class="nav-link text-white btn btn-outline-light" href="index.html">About Me</a>
-                            </li>
-                            <li class="list item">
-                                <a class="nav-link text-white btn btn-outline-light" href="contact.html">Contact</a>
-                             </li>
-                             <li class="list item">
-                                <a class="nav-link text-dark btn btn-outline-light active " href="portfolio.html">Portfolio</a>
-                             </li>
-                             <li class="list item">
-                                <a class="nav-link text-light btn btn-outline-light" href="https://www.linkedin.com/in/simmonstrever/">LinkedIn</a>
-                             </li>
-                             <li class="list item">
-                                <a class="nav-link text-light btn btn-outline-light" href="https://github.com/simmonstrever">GitHub</a>
-                             </li>
-                             <li class="list item">
-                                <a href="assets/Tsimmons_Resume.pdf" class=" nav-link btn text-light btn-outline-light" download><i class="fa fa-download"></i>Download Resume</a>
-                             </li>
-                        </ul>
-                    </div>
-            </div>
-        </nav>
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <!-- <h4 class="text-white">About</h4> -->
+            <img src="assets/prof.jpg" id="myImage" class=" align-self-center mr-3" alt="...">
+            <p class="text-muted">Meticulous and creative full-stack developer seeking to leverage mathematical degree and development background to contribute to innovative, results driven company. Currently enrolled in Denver University development boot camp, refining abilities in CSS, JavaScript, APIS, and node.js. Have demonstrated aptitude in designing, testing, and implementing code utilizing git and GitHub at both an independent and group level. Most recently demonstrated these abilities, creating a weather application for travelers looking to stay current with the weather as well as view forecasted data as well. Proven acumen in full-stack development and conducting formal presentations and reports to all levels of management. </p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white"> <a target="_blank" href="assets/Tsimmons_Resume.pdf" class="text-white"> Resume </a>
+            </h4>
+            <h4 class="text-white"> <a href="portfolio.html" class="text-white"> Portfolio </a></h4>
+            <h4 class="text-white"><a href="contact.html" class="text-white"> Contact </a></h4>
 
-    <div class="container padding mx">
-        <div class="row welcome text-center mt-5 ml-5 mr-5">
-            <div class=" col-md-12">
-                <h3 class="text-dark display-4 mt-2">Portfolio</h3>
-                <hr>
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Connect
+                </button>
+                
+                <div class="dropdown-menu text-center" aria-labelledby="btnGroupDrop1">
+                  <a target="_blank" href="https://github.com/simmonstrever" class="btn btn-block btn-social btn-lg-github">
+                    GitHub<span class="fa fa-github text-black"></span> 
+                   </a>
+
+
+                <a target="_blank" href="https://www.linkedin.com/in/simmonstrever/" class="btn btn-block btn-social btn-lg-linkedin">
+                 LinkedIn<span class="fa fa-linkedin text-black"></span> 
+                </a>
+                </div>
+              </div>
             </div>
+
+          </div>
         </div>
-        <div class="row padding">
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top" src="assets/Project1.png">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"> Elifino </h5>
-                        <p class="card-description text-center"> An Application for City Search, Maps and Language Translation for comon phrases of the specified country. </p> 
-                        <a href="https://miradetm.github.io/DU-project-1/" class="btn btn-outline-dark btn-sm">Elifino</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top" src="assets/weatherApp.png">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"> Weather App </h5>
-                        <p class="card-description text-center"> For anyone looking to stay current on the latest weather as well as a five day forecast for the specified area.</p>
-                        <a href="https://simmonstrever.github.io/weatherApp/" class="btn btn-outline-dark btn-sm">Weather App</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top" src="assets/passwordGenerator.png">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"> Password Generator </h5>
-                        <p class="card-description text-center"> A password generating application that given a specified length generates a random password.</p> <a href="https://simmonstrever.github.io/passwordGenerator/" class="btn btn-outline-dark btn-sm">Password Generator</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+    </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <h3 id="special"> Trever Simmons </h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
 
 
-    <footer>
-        <div class="container-fluid padding mt-5 bg-dark">
-            <div class="row mb-0 text-center">
-                <div class="col-md-12">
-                    <h2 id="signature" class="pt-2 text-white pa">Trever Simmons</h2>
-                    <p class="text-white pa">580-603-0821</p>
-                    <p class="text-white pa"> simmonst208@gmail.com</p>
-                    <p class="text-white pa">Lakewood, CO. 80232</p>
-                </div>
+
+
+  <div class="site-wrapper">
+
+    <div class="site-wrapper-inner">
+
+
+      <div class="container">
+        <div class="inner cover">
+          <h1 class="cover-heading"> Portfolio </h1>
+          <div class="card-deck">
+            <div class="card">
+              <img src="assets/Project1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-dark"> Elifino </h5>
+                <p class="card-description text-center text-dark"> An Application for City Search, Maps and Language Translation
+                  for comon phrases of the specified country. </p>
+              </div>
+              <div class="card-footer">
+                <a href="https://miradetm.github.io/DU-project-1/" class="btn btn-social-icon btn-github"><span class="fa fa-github"></span>
+                </a>
+              </div>
             </div>
+           <!-- second card -->
+            <div class="card">
+              <img src="assets/weatherApp.png" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-dark"> Weather App </h5>
+                <p class="card-description text-center text-dark"> For anyone looking to stay current on the latest weather as well as a five day forecast for the specified area. </p>
+              </div>
+              <div class="card-footer">
+                <a href="https://simmonstrever.github.io/weatherApp/" class="btn btn-social-icon btn-github"><span class="fa fa-github"></span>
+                </a>
+              </div>
+            </div>
+            <!-- 3rd card -->
+            <div class="card">
+              <img src="assets/passwordGenerator.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-dark"> Password Generator </h5>
+                <p class="card-description text-center text-dark"> A password generating application that given a specified length generates a random password.. </p>
+              </div>
+              <div class="card-footer">
+                <a href="https://miradetm.github.io/passwordGenerator/" class="btn btn-social-icon btn-github"><span class="fa fa-github"></span>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        
-        </footer>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer mt-0 pt-0">
+    <div class="container-fluid padding mt-0 bg-dark">
+      <div class="row mb-0 text-center">
+        <div class="col-md-12 text-center">
+          <div class="btn-group pt-0" role="group" aria-label="Basic example">
+            <button type="button" class="btn"> <a target="_blank" href="https://github.com/simmonstrever"
+                class="btn btn-social-icon btn-github">
+                <span class="fa fa-github text-white"></span>
+              </a></button>
+            <button type="button" class="btn">
+              <a target="_blank" href="https://www.linkedin.com/in/simmonstrever/"
+                class="btn btn-social-icon btn-lg-linkedin">
+                <span class="fa fa-linkedin text-white"></span>
+              </a>
+            </button>
+            <button type="button" class="btn">
+              <a target="_blank" href="https://www.linkedin.com/in/simmonstrever/"
+                class="btn btn-social btn-block btn-google text-white"><span class="fa fa-google"></span>
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>

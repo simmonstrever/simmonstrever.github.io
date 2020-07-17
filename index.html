@@ -1,95 +1,140 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>T.Simmons About Me</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<link rel="stylesheet"  href="style.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" hrey="assets/bootstrap-social.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <title>Hello, world!</title>
 </head>
 
-<link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
-
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-        <div class="container">
-            <a class="nav-brand text-center"> <h2 class="text-center text-white" id="special"> Trever Simmons </h2></a>
-            <!-- <button class="navbar" type="button"  data-target="navbarResponsive">
-                <span class="navbar"></span>
-                </button> -->
-                <div class="nav-pills justify-content-center" id="navbarResponsive">
-                    <!-- pushes nav to the right using ml auto -->
-                    <ul class="nav nav-pills">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark btn btn-outline-light active" href="index.html">About Me</a>
-                        </li>
-                        <li class="list item">
-                            <a class="nav-link text-light btn btn-outline-light" href="contact.html">Contact</a>
-                         </li>
-                         <li class="list item">
-                            <a class="nav-link text-light btn btn-outline-light" href="portfolio.html">Portfolio</a>
-                         </li>
-                         <li class="list item">
-                            <a class="nav-link text-light btn btn-outline-light" href="https://www.linkedin.com/in/simmonstrever/">LinkedIn</a>
-                         </li>
-                         <li class="list item">
-                            <a class="nav-link text-light btn btn-outline-light" href="https://github.com/simmonstrever">GitHub</a>
-                         </li>
-                         <li class="list item">
-                            <a href="assets/Tsimmons_Resume.pdf" class=" nav-link btn text-light btn-outline-light" download><i class="fa fa-download"></i>Download Resume</a>
-                         </li>
-                    </ul>
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <!-- <h4 class="text-white">About</h4> -->
+            <img src="assets/prof.jpg" id="myImage" class=" align-self-center mr-3" alt="...">
+            <p class="text-muted">Meticulous and creative full-stack developer seeking to leverage mathematical degree and development background to contribute to innovative, results driven company. Currently enrolled in Denver University development boot camp, refining abilities in CSS, JavaScript, APIS, and node.js. Have demonstrated aptitude in designing, testing, and implementing code utilizing git and GitHub at both an independent and group level. Most recently demonstrated these abilities, creating a weather application for travelers looking to stay current with the weather as well as view forecasted data as well. Proven acumen in full-stack development and conducting formal presentations and reports to all levels of management. </p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white"> <a target="_blank" href="assets/Tsimmons_Resume.pdf" class="text-white"> Resume </a>
+            </h4>
+            <h4 class="text-white"> <a href="portfolio.html" class="text-white"> Portfolio </a></h4>
+            <h4 class="text-white"><a href="contact.html" class="text-white"> Contact </a></h4>
+
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle text-white"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Connect
+                </button>
+                
+                <div class="dropdown-menu text-center" aria-labelledby="btnGroupDrop1">
+                  <a target="_blank" href="https://github.com/simmonstrever" class="btn btn-block btn-social btn-lg-github">
+                    GitHub<span class="fa fa-github text-black"></span> 
+                   </a>
+
+
+                <a target="_blank" href="https://www.linkedin.com/in/simmonstrever/" class="btn btn-block btn-social btn-lg-linkedin">
+                 LinkedIn<span class="fa fa-linkedin text-black"></span> 
+                </a>
                 </div>
+              </div>
+            </div>
+
+          </div>
         </div>
-    </nav>
-<!-- vertical drop down nav -->
-    <!-- <div class="btn-group" role="group">
-        <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <h3 id="special"> Trever Simmons </h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-          <a class="dropdown-item" href="#">Dropdown link</a>
-          <a class="dropdown-item" href="#">Dropdown link</a>
-        </div>
-      </div> -->
+      </div>
+    </div>
+  </header>
 
-     <!-- bio jumbotron -->
-     <div class="container test padding bg-dark" id="jtron">
-        <div class="row welcome text-center">
-            <div class="col-12">
-                <h1 class="text-white" id="jtron"> About Me </h1>
-                <hr class="bg-light">
-            </div>
-                <div class= "col-xs-4 col-sm-4 col-md-3">
-                    <img src="assets/prof.jpg" alt="my pic" class="img-thumbnail mb-3">
-                </div>
-                <div class="col-xs-8 col-sm-8 col-md-9">
-                   <strong> <p class="text-left text-white">   Currently, I am a student at Denver University enrolled in their Coding BootCamp. Prior to my current role, I attended Western State University in Gunnison where I earned a Bachelors of Science in Mathematics, with an emphasis in Applied Statistics. My learning experience at Western State provided me with an opportunity to exlore my creative and analytical personality by participating in a variety of accademic exercises and projects. Another perk of my time in Gunnison was enjoying all the mountains had to offer such as snowboarding and mountain biking. Although my journey in software development has just begun, I am already excited to tackle new challenges and, eventually contribute to the success of a creative and goal-oriented company.</p></strong>
-                </div>
-            </div>
+
+
+
+
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <div class="container">
+        <div class="inner cover">
+          <h1 class="cover-heading"> Trever Simmons </h1>
+          <h5 class="lead">Full-Stack Development Portfolio</h5>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <footer>
+    <div class="container-fluid padding mt-5 bg-dark footer">
+        <div class="row mb-0 text-center">
+            <div class="col-md-4 align-self-center">
+                <h2 id="signature" class="pt-2 text-white pa"> Trever Simmons </h2>
+                <p class="text-white pa"> simmonst208@gmail.com</p>
+               <span class="fa fa-github btn text-white"></span>
+             <span class="fa fa-linkedin btn text-white"></span>
+          </div>
         </div>
     </div>
+  </footer> -->
 
-
-<footer>
-<div class="container-fluid padding mt-5 bg-dark">
-    <div class="row mb-0 text-center">
-        <div class="col-md-12">
-            <h2 id="signature" class="pt-2 text-white pa">Trever Simmons</h2>
-            <p class="text-white pa">580-603-0821</p>
-            <p class="text-white pa"> simmonst208@gmail.com</p>
-            <p class="text-white pa">Lakewood, CO. 80232</p>
+  <footer class="footer mt-0 pt-0">
+    <div class="container-fluid padding mt-0 bg-dark">
+      <div class="row mb-0 text-center">
+        <div class="col-md-12 text-center">
+          <div class="btn-group pt-0" role="group" aria-label="Basic example">
+            <button type="button" class="btn"> <a target="_blank" href="https://github.com/simmonstrever"
+                class="btn btn-social-icon btn-github">
+                <span class="fa fa-github text-white"></span>
+              </a></button>
+            <button type="button" class="btn">
+              <a target="_blank" href="https://www.linkedin.com/in/simmonstrever/"
+                class="btn btn-social-icon btn-lg-linkedin">
+                <span class="fa fa-linkedin text-white"></span>
+              </a>
+            </button>
+            <button type="button" class="btn">
+              <a target="_blank" href="https://www.linkedin.com/in/simmonstrever/"
+                class="btn btn-social btn-block btn-google text-white"><span class="fa fa-google"></span>
+              </a>
+            </button>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-
-</footer>
+  </footer>
 </body>
-
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
 
 </html>
